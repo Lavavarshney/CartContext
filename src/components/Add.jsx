@@ -45,7 +45,7 @@ console.log(sum);
           {cart.map((cartItem) => (
             <li key={cartItem.id} className=" transform transition-transform duration-300 hover:scale-105"> {/* Use li directly */}
               <Card
-                img={cartItem.image}
+                img={cartItem.img}
                 title={cartItem.title}
                 price={cartItem.price}
               >
